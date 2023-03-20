@@ -1,0 +1,17 @@
+{
+  "rewards": {
+    "function": "ironman:lock_blast_furnace"
+  },
+  "criteria": {
+    "open_storage": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "id": "minecraft:blast_furnace"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "setup_player": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "ironman:setup_player"
+  }
+}

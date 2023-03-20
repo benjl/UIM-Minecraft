@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x",
+    " ",
+    " "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:trapped_chest"
+    }
+  },
+  "result": {
+    "item": "minecraft:trapped_chest",
+    "count": 1
+  }
+}

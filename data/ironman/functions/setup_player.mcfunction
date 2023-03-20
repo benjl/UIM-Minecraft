@@ -1,0 +1,1 @@
+execute as @s run scoreboard players set @s slotsUnlocked 1

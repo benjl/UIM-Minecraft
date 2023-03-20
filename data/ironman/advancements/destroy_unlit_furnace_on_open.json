@@ -1,0 +1,17 @@
+{
+  "rewards": {
+    "function": "ironman:break_unlit_furnace"
+  },
+  "criteria": {
+    "open_furn": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:furnace"
+          }
+        }
+      }
+    }
+  }
+}

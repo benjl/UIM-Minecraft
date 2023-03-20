@@ -1,0 +1,17 @@
+{
+  "rewards": {
+    "function": "ironman:break_container"
+  },
+  "criteria": {
+    "open_storage": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "ironman:containers"
+          }
+        }
+      }
+    }
+  }
+}
