@@ -2,7 +2,7 @@
 This is a Minecraft datapack inspired by the Ultimate Ironman gamemode in Old School Runescape. You must learn to make creative use of storage and inventory management methods. 
 
 ## Mechanics
-- Your inventory is restricted to your hotbar, offhand, and equipment only. Every other slot is unusable, and attempting to place an item in it will delete the item.
+- Your inventory is restricted to your hotbar, offhand, and equipment only. Every other slot is unusable, and attempting to place an item in it will drop the item.
 - Chests generated in the world will pop and drop their contents on the ground when opened.
 - Minecart chests will do the same when the player comes into interaction range.
 - Furnaces, smokers, and blast furnaces generated in the world will be locked.
