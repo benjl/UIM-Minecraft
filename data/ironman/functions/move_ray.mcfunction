@@ -1,8 +1,8 @@
-# Range of 6 blocks
-tp @s ^ ^ ^0.09375
+# Range of 128*0.046875=6 blocks
+tp @s ^ ^ ^0.046875
 
 # Make ray visible
-# particle flame ~ ~ ~ 0 0 0 0 1 force
+# particle underwater ~ ~ ~ 0 0 0 0 1 force
 
 # Check for ray collision here
 execute as @s[tag=breakUnlitFurnace] if block ~ ~ ~ minecraft:furnace run tag @s add rayHit
