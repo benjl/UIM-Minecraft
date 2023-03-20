@@ -1,1 +1,1 @@
-scoreboard objectives add slotsUnlocked trigger
+scoreboard objectives add steps trigger
