@@ -1,17 +1,21 @@
 {
-  "rewards": {
-    "function": "ironman:break_unlit_furnace"
-  },
-  "criteria": {
-    "open_furn": {
-      "trigger": "minecraft:item_used_on_block",
-      "conditions": {
-        "location": {
-          "block": {
-            "block": "minecraft:furnace"
-          }
+    "criteria": {
+        "placed_furnace": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "minecraft:furnace",
+                        "properties": {
+                            "lit": "false"
+                        }
+                    }
+                ]
+            }
         }
-      }
+    },
+    "rewards": {
+        "function": "ironman:break_unlit_furnace"
     }
-  }
 }

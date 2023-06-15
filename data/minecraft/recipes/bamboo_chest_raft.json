@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "x",
+      " ",
+      " "
+    ],
+    "key": {
+      "x": {
+        "item": "minecraft:hopper"
+      }
+    },
+    "result": {
+      "item": "minecraft:bamboo_chest_raft",
+      "count": 1
+    }
+  }

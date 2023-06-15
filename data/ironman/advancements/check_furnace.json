@@ -1,16 +1,18 @@
 {
-  "criteria": {
-    "placed_furnace": {
-      "trigger": "minecraft:placed_block",
-      "conditions": {
-        "block": "minecraft:furnace",
-        "item": {
-          "item": "minecraft:furnace"
+    "criteria": {
+        "placed_furnace": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "block": "minecraft:furnace",
+                        "condition": "minecraft:block_state_property"
+                    }
+                ]
+            }
         }
-      }
+    },
+    "rewards": {
+        "function": "ironman:light_furnace"
     }
-  },
-  "rewards": {
-    "function": "ironman:light_furnace"
-  }
 }

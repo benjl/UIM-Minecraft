@@ -1,17 +1,19 @@
 {
-  "rewards": {
-    "function": "ironman:lock_barrel"
-  },
-  "criteria": {
-    "open_storage": {
-      "trigger": "minecraft:item_used_on_block",
-      "conditions": {
-        "location": {
-          "block": {
-            "id": "minecraft:barrel"
-          }
+    "criteria": {
+        "placed_furnace": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "block": "minecraft:barrel",
+                        "properties": {},
+                        "condition": "minecraft:block_state_property"
+                    }
+                ]
+            }
         }
-      }
+    },
+    "rewards": {
+        "function": "ironman:lock_barrel"
     }
-  }
 }
