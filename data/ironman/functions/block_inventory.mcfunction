@@ -29,7 +29,7 @@ item replace entity @a[nbt=!{Inventory:[{Slot:33b,id:"minecraft:barrier"}]}] inv
 item replace entity @a[nbt=!{Inventory:[{Slot:34b,id:"minecraft:barrier"}]}] inventory.25 with minecraft:barrier 1
 item replace entity @a[nbt=!{Inventory:[{Slot:35b,id:"minecraft:barrier"}]}] inventory.26 with minecraft:barrier 1
 
-# Replace any unlocked slots with air if there's a barrier in them
+# Replace any slots with air if there's a barrier in them
 item replace entity @a[nbt={Inventory:[{Slot:0b,id:"minecraft:barrier"}]}] hotbar.0 with minecraft:air 1
 item replace entity @a[nbt={Inventory:[{Slot:1b,id:"minecraft:barrier"}]}] hotbar.1 with minecraft:air 1
 item replace entity @a[nbt={Inventory:[{Slot:2b,id:"minecraft:barrier"}]}] hotbar.2 with minecraft:air 1
