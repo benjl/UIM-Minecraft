@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x",
+    " ",
+    " "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:crafter"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafter",
+    "count": 1
+  }
+}
