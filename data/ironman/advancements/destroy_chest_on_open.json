@@ -1,13 +1,13 @@
 {
     "criteria": {
         "placed_furnace": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "minecraft:default_block_use",
             "conditions": {
                 "location": [
                     {
                         "predicate": {
                             "block": {
-                              "blocks": [
+                                "blocks": [
                                     "minecraft:chest",
                                     "minecraft:trapped_chest",
                                     "minecraft:ender_chest",
@@ -33,7 +33,7 @@
                                     "minecraft:hopper"
                                 ]
                             }
-                          },
+                        },
                         "condition": "minecraft:location_check"
                     }
                 ]
