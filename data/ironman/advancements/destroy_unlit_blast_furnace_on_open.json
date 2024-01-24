@@ -1,19 +1,21 @@
 {
     "criteria": {
         "placed_furnace": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "minecraft:default_block_use",
             "conditions": {
                 "location": [
                     {
-                        "block": "minecraft:smoker",
                         "condition": "minecraft:block_state_property",
-                        "properties": {}
+                        "block": "minecraft:blast_furnace",
+                        "properties": {
+                            "lit": "false"
+                        }
                     }
                 ]
             }
         }
     },
     "rewards": {
-        "function": "ironman:lock_smoker"
+        "function": "ironman:break_unlit_furnace"
     }
 }

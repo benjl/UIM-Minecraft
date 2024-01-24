@@ -1,4 +1,6 @@
 execute as @s run advancement revoke @s only ironman:check_furnace
+execute as @s run advancement revoke @s only ironman:check_blast_furnace
+execute as @s run advancement revoke @s only ironman:check_smoker
 
 summon marker ~ ~ ~ {Tags:["ray", "lightFurnace", "furnaceChecker"]}
 execute anchored eyes rotated as @s run tp @e[tag=ray,limit=1,sort=nearest] ^ ^ ^ ~ ~

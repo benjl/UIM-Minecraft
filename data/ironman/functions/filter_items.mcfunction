@@ -36,5 +36,5 @@ execute as @a at @s run kill @e[type=minecraft:glow_item_frame,distance=0..6]
 execute as @a at @s run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 minecraft:air replace minecraft:barrier
 
 
-execute as @e[tag=furnaceChecker] at @s unless block ~ ~ ~ minecraft:furnace run kill @s
-execute as @e[tag=furnaceChecker] at @s if block ~ ~ ~ minecraft:furnace[lit=false] run setblock ~ ~ ~ minecraft:air destroy
+execute as @e[tag=furnaceChecker] at @s unless block ~ ~ ~ #ironman:furnaces run kill @s
+execute as @e[tag=furnaceChecker] at @s if block ~ ~ ~ #ironman:furnaces[lit=false] run setblock ~ ~ ~ minecraft:air destroy

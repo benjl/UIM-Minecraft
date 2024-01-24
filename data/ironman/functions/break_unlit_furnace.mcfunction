@@ -1,4 +1,6 @@
 execute as @s run advancement revoke @s only ironman:destroy_unlit_furnace_on_open
+execute as @s run advancement revoke @s only ironman:destroy_unlit_smoker_on_open
+execute as @s run advancement revoke @s only ironman:destroy_unlit_blast_furnace_on_open
 
 summon marker ~ ~ ~ {Tags:["ray", "breakUnlitFurnace"]}
 execute anchored eyes rotated as @s run tp @e[tag=ray,limit=1,sort=nearest] ^ ^ ^ ~ ~

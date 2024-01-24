@@ -1,7 +1,7 @@
 {
     "criteria": {
         "placed_furnace": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "minecraft:placed_block",
             "conditions": {
                 "location": [
                     {
@@ -14,6 +14,6 @@
         }
     },
     "rewards": {
-        "function": "ironman:lock_blast_furnace"
+        "function": "ironman:light_furnace"
     }
 }
