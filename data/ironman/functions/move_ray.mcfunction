@@ -1,5 +1,5 @@
-# Range of 128*0.046875=6 blocks
-tp @s ^ ^ ^0.046875
+# Range of 1024*0.005859375=6 blocks
+tp @s ^ ^ ^0.005859375
 
 # Make ray visible
 # particle underwater ~ ~ ~ 0 0 0 0 1 force
