@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "minecraft:birch_chest_boat",
+    "id": "minecraft:birch_chest_boat",
     "count": 1
   }
 }

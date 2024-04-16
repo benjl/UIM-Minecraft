@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "minecraft:shulker_box",
+    "id": "minecraft:shulker_box",
     "count": 1
   }
 }

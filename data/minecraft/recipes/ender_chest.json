@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "minecraft:ender_chest",
+    "id": "minecraft:ender_chest",
     "count": 1
   }
 }
