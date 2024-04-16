@@ -29,8 +29,8 @@ execute as @a at @s run kill @e[type=minecraft:trader_llama,nbt={ChestedHorse:1b
 execute as @a at @s run kill @e[type=minecraft:mule,nbt={ChestedHorse:1b},distance=0..6]
 execute as @a at @s run kill @e[type=minecraft:chest_minecart,distance=0..6]
 execute as @a at @s run kill @e[type=minecraft:hopper_minecart,distance=0..6]
-execute as @a at @s run kill @e[type=minecraft:item_frame,distance=0..6]
-execute as @a at @s run kill @e[type=minecraft:glow_item_frame,distance=0..6]
+execute as @a at @s run damage @e[type=minecraft:item_frame,distance=0..6,sort=nearest,limit=1] 20 minecraft:arrow
+execute as @a at @s run damage @e[type=minecraft:glow_item_frame,distance=0..6,sort=nearest,limit=1] 20 minecraft:arrow
 
 # Prevent player from placing barriers in the hotbar
 execute as @a at @s run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 minecraft:air replace minecraft:barrier
