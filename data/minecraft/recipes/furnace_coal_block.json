@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xcx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "c": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result": {
+    "id": "minecraft:furnace",
+    "count": 1,
+    "components": {
+      "minecraft:block_state": {"lit": "true"},
+      "minecraft:block_entity_data": {
+        "id": "minecraft:furnace", 
+        "BurnTime": 16600
+      },
+      "minecraft:custom_name": "\"Furnace (Coal Block)\""
+    }
+  }
+}

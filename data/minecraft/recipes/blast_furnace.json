@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x",
+    " ",
+    " "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "result": {
+    "id": "minecraft:barrier",
+    "count": 1
+  }
+}

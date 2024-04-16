@@ -8,6 +8,7 @@ tp @s ^ ^ ^0.005859375
 execute as @s[tag=breakUnlitFurnace] if block ~ ~ ~ #ironman:furnaces run tag @s add rayHit
 execute as @s[tag=breakContainer] if block ~ ~ ~ #ironman:containers run tag @s add rayHit
 execute as @s[tag=lightFurnace] if block ~ ~ ~ #ironman:furnaces run tag @s add rayHit
+execute as @s[tag=furnaceChecker] if block ~ ~ ~ #ironman:furnaces run tag @s add rayHit
 execute as @s[tag=lockBarrel] if block ~ ~ ~ minecraft:barrel run tag @s add rayHit
 
 scoreboard players remove @s steps 1

@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "xxx",
-    "xcx",
-    "xxx"
+    "x  ",
+    "   ",
+    "   "
   ],
   "key": {
     "x": {
-      "tag": "minecraft:stone_crafting_materials"
-    },
-    "c": {
-      "item": "minecraft:coal_block"
+      "tag": "nothing"
     }
   },
   "result": {
-    "id": "minecraft:furnace",
-    "count": 1
+    "id": "minecraft:barrier",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "\"Uncraftable\""
+    }
   }
 }
