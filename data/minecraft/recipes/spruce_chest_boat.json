@@ -1,14 +1,7 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "x  ",
-    "   ",
-    "   "
-  ],
-  "key": {
-    "x": {
+  "type": "minecraft:blasting",
+  "ingredient": {
       "tag": "nothing"
-    }
   },
   "result": {
     "id": "minecraft:barrier",
