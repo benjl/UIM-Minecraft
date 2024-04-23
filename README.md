@@ -9,3 +9,9 @@ This is a Minecraft datapack inspired by the Ultimate Ironman gamemode in Old Sc
 - Entities able to hold arbitrary items like llamas and item frames will be killed upon entering interaction range.
 - Chests, item frames, and any other item that can store arbitrary items are uncraftable.
 - Furnaces are crafted pre-loaded with a coal or coal block in the centre of the recipe. Once placed, the furnace starts immediately, and breaks once it runs out of fuel. This is to allow the smelting of items while making storage in furnaces infeasible.
+
+## Download and Installation
+- If you have git, do `git clone https://github.com/benjl/UIM-Minecraft.git` in your datapacks folder to get the absolute latest version (could include experimental changes or snapshot compatibility)
+- Visit [the Modrinth page](https://modrinth.com/datapack/uim-minecraft-hotbar-only) and download the datapack there
+- Press the Code button near the top of the page, then Download Zip, and *extract* the zip file into your datapacks folder
+- Visit the Releases page or the Tags page and download the zip, and *extract* the zip into your datapacks folder
