@@ -22,7 +22,7 @@
         "id": "minecraft:furnace", 
         "BurnTime": 1660
       },
-      "minecraft:custom_name": "\"Furnace (Coal)\""
+      "minecraft:item_name": "\"Furnace (Coal)\""
     }
   }
 }
