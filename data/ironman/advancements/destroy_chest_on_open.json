@@ -11,7 +11,6 @@
                                     "minecraft:chest",
                                     "minecraft:trapped_chest",
                                     "minecraft:ender_chest",
-                                    "minecraft:dispenser",
                                     "minecraft:dropper",
                                     "minecraft:shulker_box",
                                     "minecraft:white_shulker_box",
@@ -31,7 +30,8 @@
                                     "minecraft:red_shulker_box",
                                     "minecraft:black_shulker_box",
                                     "minecraft:hopper",
-                                    "minecraft:crafter"
+                                    "minecraft:crafter",
+                                    "minecraft:barrel"
                                 ]
                             }
                         },

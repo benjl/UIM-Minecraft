@@ -23,6 +23,7 @@
 		"minecraft:red_shulker_box",
         "minecraft:black_shulker_box",
         "minecraft:hopper",
-		"minecraft:crafter"
+		"minecraft:crafter",
+		"minecraft:barrel"
     ]
 }

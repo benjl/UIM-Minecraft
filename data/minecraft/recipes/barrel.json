@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+      "tag": "nothing"
+  },
+  "result": {
+    "id": "minecraft:barrier",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "\"Uncraftable\""
+    }
+  }
+}

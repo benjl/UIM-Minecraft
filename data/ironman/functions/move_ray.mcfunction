@@ -9,7 +9,7 @@ execute as @s[tag=breakUnlitFurnace] if block ~ ~ ~ #ironman:furnaces run tag @s
 execute as @s[tag=breakContainer] if block ~ ~ ~ #ironman:containers run tag @s add rayHit
 execute as @s[tag=lightFurnace] if block ~ ~ ~ #ironman:furnaces run tag @s add rayHit
 execute as @s[tag=furnaceChecker] if block ~ ~ ~ #ironman:furnaces run tag @s add rayHit
-execute as @s[tag=lockBarrel] if block ~ ~ ~ minecraft:barrel run tag @s add rayHit
+execute as @s[tag=lockDispenser] if block ~ ~ ~ minecraft:dispenser run tag @s add rayHit
 
 scoreboard players remove @s steps 1
 execute as @s[tag=!rayHit,scores={steps=1..}] at @s run function ironman:move_ray
