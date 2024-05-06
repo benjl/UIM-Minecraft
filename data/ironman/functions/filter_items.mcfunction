@@ -1,26 +1,8 @@
 # If any of the Forbidden Items are in the word, delete them
 
 kill @e[type=item,nbt={Item:{id:"minecraft:barrier"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:shulker_box"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:white_shulker_box"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:orange_shulker_box"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:magenta_shulker_box"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:light_blue_shulker_box"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:yellow_shulker_box"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:lime_shulker_box"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:pink_shulker_box"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:gray_shulker_box"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:light_gray_shulker_box"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:cyan_shulker_box"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:purple_shulker_box"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:blue_shulker_box"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:brown_shulker_box"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:green_shulker_box"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:red_shulker_box"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:black_shulker_box"}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:item_frame"}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:glow_item_frame"}}]
-kill @e[type=item,nbt={Item:{id:"minecraft:bundle"}}]
 
 # Kill any forbidden mobs/entities
 execute as @a at @s run kill @e[type=minecraft:llama,nbt={ChestedHorse:1b},distance=0..6]
