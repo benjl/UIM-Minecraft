@@ -7,7 +7,6 @@ tp @s ^ ^ ^0.005859375
 # Check for ray collision here
 execute as @s[tag=breakUnlitFurnace] if block ~ ~ ~ #ironman:furnaces run tag @s add rayHit
 execute as @s[tag=breakContainer] if block ~ ~ ~ #ironman:containers run tag @s add rayHit
-execute as @s[tag=lightFurnace] if block ~ ~ ~ #ironman:furnaces run tag @s add rayHit
 execute as @s[tag=furnaceChecker] if block ~ ~ ~ #ironman:furnaces run tag @s add rayHit
 execute as @s[tag=lockDispenser] if block ~ ~ ~ minecraft:dispenser run tag @s add rayHit
 
