@@ -1,7 +1,7 @@
 {
     "criteria": {
         "placed_furnace": {
-            "trigger": "minecraft:default_block_use",
+            "trigger": "minecraft:any_block_use",
             "conditions": {
                 "location": [
                     {
@@ -31,7 +31,8 @@
                                     "minecraft:black_shulker_box",
                                     "minecraft:hopper",
                                     "minecraft:crafter",
-                                    "minecraft:barrel"
+                                    "minecraft:barrel",
+                                    "minecraft:decorated_pot"
                                 ]
                             }
                         },

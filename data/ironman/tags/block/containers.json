@@ -24,6 +24,7 @@
         "minecraft:black_shulker_box",
         "minecraft:hopper",
 		"minecraft:crafter",
-		"minecraft:barrel"
+		"minecraft:barrel",
+		"minecraft:decorated_pot"
     ]
 }
