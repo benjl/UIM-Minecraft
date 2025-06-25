@@ -6,12 +6,8 @@
     "xxx"
   ],
   "key": {
-    "x": {
-      "tag": "minecraft:stone_crafting_materials"
-    },
-    "c": {
-      "item": "minecraft:coal_block"
-    }
+    "x": "#minecraft:stone_crafting_materials",
+    "c": "minecraft:coal_block"
   },
   "result": {
     "id": "minecraft:furnace",
@@ -22,7 +18,7 @@
         "id": "minecraft:furnace", 
         "BurnTime": 16600
       },
-      "minecraft:item_name": "\"Furnace (Coal Block)\""
+      "minecraft:item_name": "Furnace (Coal Block)"
     }
   }
 }

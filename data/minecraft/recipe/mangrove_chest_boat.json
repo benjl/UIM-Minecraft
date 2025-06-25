@@ -1,8 +1,6 @@
 {
   "type": "minecraft:blasting",
-  "ingredient": {
-      "tag": "nothing"
-  },
+  "ingredient": "#nothing",
   "result": {
     "id": "minecraft:barrier",
     "count": 1,
