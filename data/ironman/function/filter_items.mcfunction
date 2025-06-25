@@ -3,6 +3,7 @@
 kill @e[type=item,nbt={Item:{id:"minecraft:barrier"}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:item_frame"}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:glow_item_frame"}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:bundle"}}]
 
 # Kill any forbidden mobs/entities
 execute as @a at @s run kill @e[type=minecraft:llama,nbt={ChestedHorse:1b},distance=0..6]
