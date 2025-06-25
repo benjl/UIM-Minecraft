@@ -16,7 +16,8 @@
       "minecraft:block_state": {"lit": "true"},
       "minecraft:block_entity_data": {
         "id": "minecraft:furnace", 
-        "BurnTime": 1660
+        "lit_time_remaining": 1660,
+        "lit_total_time": 1660
       },
       "minecraft:item_name": "Furnace (Coal)"
     }
