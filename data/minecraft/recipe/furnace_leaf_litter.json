@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xcx",
+    "xxx"
+  ],
+  "key": {
+    "x": "#minecraft:stone_crafting_materials",
+    "c": "minecraft:leaf_litter"
+  },
+  "result": {
+    "id": "minecraft:furnace",
+    "count": 1,
+    "components": {
+      "minecraft:block_state": {"lit": "true"},
+      "minecraft:block_entity_data": {
+        "id": "minecraft:furnace", 
+        "lit_time_remaining": 160,
+        "lit_total_time": 160
+      },
+      "minecraft:item_name": "Furnace (Leaf Litter)"
+    }
+  }
+}
