@@ -1,6 +1,6 @@
 {
 "values": [
-    "ironman:block_inventory",
+    "ironman:check_inventory",
     "ironman:filter_items"
     ]
 }
