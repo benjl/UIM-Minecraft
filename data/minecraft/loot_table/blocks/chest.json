@@ -1,13 +1,32 @@
 {
-    "pools": [
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
         {
-            "rolls": 0,
-            "entries": [
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "predicates": {
+              "minecraft:enchantments": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:stone"
+                  "enchantments": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
                 }
-            ]
+              ]
+            }
+          }
         }
-    ]
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
 }

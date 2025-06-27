@@ -1,3 +1,4 @@
+# If it's a container breaker, check if we lock containers first, then early return if so
 execute unless data storage ironman:settings popChests as @s[tag=breakContainer] at @s if block ~ ~ ~ #ironman:lockables run function ironman:lock_container
 execute unless data storage ironman:settings popChests as @s[tag=breakContainer] at @s if block ~ ~ ~ #ironman:lockables run return 1
 

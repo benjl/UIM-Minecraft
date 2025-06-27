@@ -1,3 +1,5 @@
+# This is in a separate file because dispensers should always lock instead of explode regardless of settings
+
 execute as @s run advancement revoke @s only ironman:lock_dispenser_on_open
 
 summon marker ~ ~ ~ {Tags:["ray", "lockDispenser"]}
