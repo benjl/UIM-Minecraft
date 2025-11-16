@@ -1,3 +1,6 @@
 {
-"values": []
+"values": [
+    "uim:delete_forbidden_items",
+    "uim:clear_hotbar_barriers"
+    ]
 }
