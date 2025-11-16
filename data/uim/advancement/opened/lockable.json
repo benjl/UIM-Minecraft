@@ -1,22 +1,22 @@
 {
     "criteria": {
         "placed_furnace": {
-            "trigger": "minecraft:placed_block",
+            "trigger": "minecraft:any_block_use",
             "conditions": {
                 "location": [
                     {
-                        "condition": "minecraft:location_check",
                         "predicate": {
                             "block": {
-                                "blocks": "#uim:furnaces"
+                                "blocks": "#uim:lockables"
                             }
-                        }
+                        },
+                        "condition": "minecraft:location_check"
                     }
                 ]
             }
         }
     },
     "rewards": {
-        "function": "uim:placed_furnace"
+        "function": "uim:opened_lockable"
     }
 }
