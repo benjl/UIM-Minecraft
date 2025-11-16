@@ -1,6 +1,7 @@
 {
 "values": [
-    "uim:monitor/schedule",
+    "uim:schedule/10_seconds",
+    "uim:schedule/half_second",
     "uim:load"
     ]
 }
