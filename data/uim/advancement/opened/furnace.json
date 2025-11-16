@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "placed_furnace": {
+            "trigger": "minecraft:any_block_use",
+            "conditions": {
+                "location": [
+                    {
+                        "predicate": {
+                            "block": {
+                                "blocks": "#uim:furnaces"
+                            }
+                        },
+                        "condition": "minecraft:location_check"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "uim:opened_unlit_furnace"
+    }
+}
