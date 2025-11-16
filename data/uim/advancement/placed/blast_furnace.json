@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "placed_furnace": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "block": "minecraft:blast_furnace",
+                        "condition": "minecraft:block_state_property"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "uim:place_furnace"
+    }
+}
