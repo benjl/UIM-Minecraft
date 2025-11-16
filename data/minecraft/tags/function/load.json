@@ -1,5 +1,6 @@
 {
 "values": [
-    "ironman:setup/load"
+    "uim:monitor/schedule",
+    "uim:load"
     ]
 }

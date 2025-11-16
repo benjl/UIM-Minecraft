@@ -6,7 +6,10 @@
                 "location": [
                     {
                         "block": "minecraft:furnace",
-                        "condition": "minecraft:block_state_property"
+                        "condition": "minecraft:block_state_property",
+                        "properties": {
+                            "lit": "true"
+                        }
                     }
                 ]
             }
