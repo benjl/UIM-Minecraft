@@ -8,7 +8,7 @@
   ],
   "key": {
     "x": "#minecraft:stone_crafting_materials",
-    "c": "minecraft:leaf_litter"
+    "c": "minecraft:stick"
   },
   "result": {
     "id": "minecraft:furnace",
@@ -20,7 +20,7 @@
         "lit_time_remaining": 160,
         "lit_total_time": 160
       },
-      "minecraft:item_name": "Furnace (Leaf Litter)"
+      "minecraft:item_name": "Furnace (Stick)"
     }
   }
 }
