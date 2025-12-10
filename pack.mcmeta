@@ -1,7 +1,147 @@
 {
-  "pack": {
-    "min_format": 88,
-    "max_format": 94,
-    "description": "UIM Minecraft - Hotbar Only for 1.21.11"
-  }
+    "pack": {
+        "min_format": 88,
+        "max_format": 94,
+        "description": "UIM Minecraft - Hotbar Only for 1.21.11"
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "recipe/acacia_chest_boat.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/acacia_shelf.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/bamboo_chest_raft.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/bamboo_shelf.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/birch_chest_boat.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/birch_shelf.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/blast_furnace.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/bundle.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/cherry_chest_boat.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/cherry_shelf.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/chest_minecart.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/crimson_shelf.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/dark_oak_chest_boat.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/dark_oak_shelf.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/ender_chest.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/furnace.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/furnace_minecart.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/glow_item_frame.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/hopper.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/hopper_minecart.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/item_frame.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/jungle_chest_boat.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/jungle_shelf.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/mangrove_chest_boat.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/mangrove_shelf.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/oak_chest_boat.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/oak_shelf.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/pale_oak_chest_boat.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/pale_oak_shelf.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/shulker_box.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/smoker.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/spruce_chest_boat.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/spruce_shelf.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/warped_shelf.json"
+            }
+        ]
+    }
 }
