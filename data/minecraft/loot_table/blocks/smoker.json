@@ -1,13 +1,14 @@
 {
-    "pools": [
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
         {
-            "rolls": 0,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:stone"
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:cobblestone"
         }
-    ]
+      ],
+      "rolls": 0
+    }
+  ]
 }

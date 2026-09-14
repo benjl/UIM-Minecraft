@@ -1,13 +1,15 @@
 {
-    "pools": [
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "condition": "minecraft:tool/can_silk_touch",
+      "entries": [
         {
-            "rolls": 0,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:stone"
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:furnace"
         }
-    ]
+      ],
+      "rolls": 0
+    }
+  ]
 }

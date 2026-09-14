@@ -1,19 +1,16 @@
 {
-    "criteria": {
-        "placed_furnace": {
-            "trigger": "minecraft:default_block_use",
-            "conditions": {
-                "location": [
-                    {
-                        "block": "minecraft:dispenser",
-                        "properties": {},
-                        "condition": "minecraft:block_state_property"
-                    }
-                ]
-            }
+  "criteria": {
+    "placed_furnace": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:dispenser"
         }
-    },
-    "rewards": {
-        "function": "ironman:lock_dispenser"
+      }
     }
+  },
+  "rewards": {
+    "function": "ironman:lock_dispenser"
+  }
 }

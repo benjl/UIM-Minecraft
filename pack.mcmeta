@@ -1,147 +1,147 @@
 {
-    "pack": {
-        "min_format": 88,
-        "max_format": 94,
-        "description": "UIM Minecraft - Hotbar Only for 1.21.11"
-    },
-    "filter": {
-        "block": [
+  "pack": {
+    "min_format": 121,
+    "max_format": 121,
+    "description": "UIM Minecraft - Hotbar Only for 26.3"
+  },
+  "filter": {
+    "block": [
             {
                 "namespace": "minecraft",
-                "path": "recipe/acacia_chest_boat.json"
+                "path": "acacia_chest_boat.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/acacia_shelf.json"
+                "path": "acacia_shelf.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/bamboo_chest_raft.json"
+                "path": "bamboo_chest_raft.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/bamboo_shelf.json"
+                "path": "bamboo_shelf.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/birch_chest_boat.json"
+                "path": "birch_chest_boat.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/birch_shelf.json"
+                "path": "birch_shelf.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/blast_furnace.json"
+                "path": "blast_furnace.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/bundle.json"
+                "path": "bundle.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/cherry_chest_boat.json"
+                "path": "cherry_chest_boat.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/cherry_shelf.json"
+                "path": "cherry_shelf.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/chest_minecart.json"
+                "path": "chest_minecart.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/crimson_shelf.json"
+                "path": "crimson_shelf.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/dark_oak_chest_boat.json"
+                "path": "dark_oak_chest_boat.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/dark_oak_shelf.json"
+                "path": "dark_oak_shelf.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/ender_chest.json"
+                "path": "ender_chest.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/furnace.json"
+                "path": "furnace.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/furnace_minecart.json"
+                "path": "furnace_minecart.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/glow_item_frame.json"
+                "path": "glow_item_frame.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/hopper.json"
+                "path": "hopper.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/hopper_minecart.json"
+                "path": "hopper_minecart.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/item_frame.json"
+                "path": "item_frame.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/jungle_chest_boat.json"
+                "path": "jungle_chest_boat.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/jungle_shelf.json"
+                "path": "jungle_shelf.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/mangrove_chest_boat.json"
+                "path": "mangrove_chest_boat.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/mangrove_shelf.json"
+                "path": "mangrove_shelf.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/oak_chest_boat.json"
+                "path": "oak_chest_boat.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/oak_shelf.json"
+                "path": "oak_shelf.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/pale_oak_chest_boat.json"
+                "path": "pale_oak_chest_boat.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/pale_oak_shelf.json"
+                "path": "pale_oak_shelf.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/shulker_box.json"
+                "path": "shulker_box.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/smoker.json"
+                "path": "smoker.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/spruce_chest_boat.json"
+                "path": "spruce_chest_boat.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/spruce_shelf.json"
+                "path": "spruce_shelf.json"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/warped_shelf.json"
+                "path": "warped_shelf.json"
             }
         ]
-    }
+  }
 }

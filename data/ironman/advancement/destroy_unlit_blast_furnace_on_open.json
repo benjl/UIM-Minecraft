@@ -1,21 +1,22 @@
 {
-    "criteria": {
-        "placed_furnace": {
-            "trigger": "minecraft:default_block_use",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:block_state_property",
-                        "block": "minecraft:blast_furnace",
-                        "properties": {
-                            "lit": "false"
-                        }
-                    }
-                ]
+  "criteria": {
+    "placed_furnace": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:blast_furnace",
+          "state": {
+            "lit": {
+              "min": "false",
+              "max": "false"
             }
+          }
         }
-    },
-    "rewards": {
-        "function": "ironman:break_unlit_furnace"
+      }
     }
+  },
+  "rewards": {
+    "function": "ironman:break_unlit_furnace"
+  }
 }
