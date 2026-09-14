@@ -141,6 +141,10 @@
             {
                 "namespace": "minecraft",
                 "path": "warped_shelf.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "poplar_chest_boat.json"
             }
         ]
   }
